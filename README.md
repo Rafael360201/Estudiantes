@@ -68,3 +68,5 @@ El proyecto está organizado de la siguiente manera:
 - **interfaz**: Contiene la implementación de Django, incluyendo modelos, vistas y plantillas.
 
 Tambien se incluye un ejemplo en Postman para tener un ejemplo de los endpoints.
+
+![alt text](image.png)
