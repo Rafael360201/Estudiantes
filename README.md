@@ -15,36 +15,35 @@ Este es un proyecto que muestra un sistema para gestionar estudiantes utilizando
 ## Configuración del Proyecto
 Crea un entorno virtual para el proyecto:
 ```
-$ python3 -m venv env
+python3 -m venv env
 ```
 Activa el entorno virtual:
-En Windows:
 ```
-$ myenv\Scripts\activate
+env\Scripts\activate
+cd Estudiantes
 ```
 Para instalar los las librerias neceserias se puede usar el comando 
 ```
-$ pip install -r requirements.txt
+pip install -r requirements.txt
 ```
 Inicia el servidor de desarrollo de Flask:
 ```
-$ flask db init
-$ flask db migrate
-$ flask db upgrade
-
-$ flask run
+cd proyecto
+python run.py
 ```
+
 Accede al proyecto en tu navegador web en la dirección 
 ```
 http://localhost:5000/usuarios
 ```
 
-
 ## Configuración de Django
 
-Para ejecutar la interfaz necesitas otra terminal y colocar
+Para ejecutar la interfaz necesitas otra terminal y colocarte en la carpeta de donde creaste el entorno y volver a iniciarlo 
 ```
-$ python manage.py runserver
+cd Estudiantes\interfaz\interfaz_estudiante
+
+python manage.py runserver
 ```
 Accede al proyecto en tu navegador web en la dirección 
 ```
